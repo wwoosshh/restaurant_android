@@ -1,0 +1,13 @@
+# Database files
+restaurant-server/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# MongoDB files
+*.wt
+**/journal/
+**/WiredTiger*
+
+# Logs
+*.log
