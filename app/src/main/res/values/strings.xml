@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">맛집 추천</string>
+    
+    <!-- 네비게이션 관련 -->
+    <string name="nav_search">검색</string>
+    <string name="nav_bookmark">북마크</string>
+    <string name="nav_map">지도</string>
+    <string name="nav_profile">프로필</string>
+    
+    <!-- 검색 관련 -->
+    <string name="search_hint">맛집을 검색해보세요</string>
+    <string name="search_no_results">검색 결과가 없습니다</string>
+    <string name="category_all">전체</string>
+    <string name="category_korean">한식</string>
+    <string name="category_western">양식</string>
+    <string name="category_chinese">중식</string>
+    <string name="category_japanese">일식</string>
+    <string name="category_cafe">카페</string>
+    
+    <!-- 인증 관련 -->
+    <string name="login">로그인</string>
+    <string name="register">회원가입</string>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="username">사용자명</string>
+    <string name="logout">로그아웃</string>
+    
+    <!-- 맛집 관련 -->
+    <string name="restaurant_name">맛집 이름</string>
+    <string name="restaurant_address">주소</string>
+    <string name="restaurant_phone">전화번호</string>
+    <string name="restaurant_rating">평점</string>
+    <string name="bookmark_added">북마크에 추가되었습니다</string>
+    <string name="bookmark_removed">북마크에서 제거되었습니다</string>
+    
+    <!-- 오류 메시지 -->
+    <string name="error_network">네트워크 오류가 발생했습니다</string>
+    <string name="error_login_failed">로그인에 실패했습니다</string>
+    <string name="error_loading_data">데이터를 불러오는데 실패했습니다</string>
+    
+    <!-- 기타 -->
+    <string name="loading">로딩 중...</string>
+    <string name="retry">다시 시도</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+</resources>

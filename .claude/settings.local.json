@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java:*)",
+      "Bash(chmod:*)",
+      "Bash(./gradlew:*)",
+      "Bash(export:*)",
+      "Bash(gradle clean:*)",
+      "Bash(curl:*)",
+      "Bash(mkdir:*)",
+      "Bash(rm:*)",
+      "Bash(npm start)",
+      "Bash(mongod:*)",
+      "Bash(cmd //c:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\c\\Users\\user\\Desktop\\restau"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_restaurant_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_restaurant_24.xml"
+    },
+    {
+        "merged": "com.restaurantapp-release-49:/layout_fragment_home.xml.flat",
+        "source": "com.restaurantapp-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\layout_item_restaurant.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\layout\\item_restaurant.xml"
+    },
+    {
+        "merged": "com.restaurantapp-release-49:/drawable_ic_arrow_back_24.xml.flat",
+        "source": "com.restaurantapp-main-50:/drawable/ic_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_favorite_border_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.restaurantapp-release-49:/layout_activity_category_detail.xml.flat",
+        "source": "com.restaurantapp-main-50:/layout/activity_category_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_dessert.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_dessert.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_korean.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_korean.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_star_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_star_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_fastfood.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_fastfood.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_chip.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_bookmark_border_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_bookmark_border_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_favorite_active.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\favorite_active.xml"
+    },
+    {
+        "merged": "com.restaurantapp-release-49:/layout_chip_assist.xml.flat",
+        "source": "com.restaurantapp-main-50:/layout/chip_assist.xml"
+    },
+    {
+        "merged": "com.restaurantapp-release-49:/drawable_ic_search_24.xml.flat",
+        "source": "com.restaurantapp-main-50:/drawable/ic_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bookmark_active.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bookmark_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.restaurantapp-release-49:/layout_chip_filter.xml.flat",
+        "source": "com.restaurantapp-main-50:/layout/chip_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_favorite_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_western.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_western.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_bookmark_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_bookmark_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_chinese.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_chinese.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_japanese.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_japanese.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_icon_default.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\icon_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_bg_category_cafe.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\bg_category_cafe.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\drawable_ic_location_on_24.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\drawable\\ic_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-release-49:\\layout_activity_main_old.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-50:\\layout\\activity_main_old.xml"
+    }
+]

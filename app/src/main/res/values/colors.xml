@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본 색상 팔레트 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- 앱 전용 색상 -->
+    <color name="primary">#FF4CAF50</color>
+    <color name="primary_dark">#FF388E3C</color>
+    <color name="accent">#FFFF5722</color>
+    <color name="accent_light">#FFFF8A65</color>
+    
+    <!-- 배경 색상 -->
+    <color name="background_light">#FFFAFAFA</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FFF5F5F5</color>
+    
+    <!-- 텍스트 색상 -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    <color name="text_hint">#61000000</color>
+    <color name="primary_text">#DE000000</color>
+    <color name="secondary_text">#99000000</color>
+    
+    <!-- 상태 색상 -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFF44336</color>
+    <color name="info">#FF2196F3</color>
+    
+    <!-- 평점 색상 -->
+    <color name="rating_star">#FFFFC107</color>
+    <color name="rating_star_empty">#FFE0E0E0</color>
+    
+    <!-- 카테고리 색상 -->
+    <color name="category_korean">#FFFF5722</color>
+    <color name="category_western">#FF9C27B0</color>
+    <color name="category_chinese">#FFFF9800</color>
+    <color name="category_japanese">#FF607D8B</color>
+    <color name="category_cafe">#FF795548</color>
+    <color name="category_dessert">#FFE91E63</color>
+    <color name="category_fastfood">#FF2196F3</color>
+    
+    <!-- 평점 색상 -->
+    <color name="rating_excellent">#FF4CAF50</color>
+    <color name="rating_good">#FF8BC34A</color>
+    <color name="rating_average">#FFFF9800</color>
+    <color name="rating_poor">#FFF44336</color>
+    
+    <!-- UI 요소 색상 -->
+    <color name="card_stroke">#FFE0E0E0</color>
+    <color name="image_placeholder">#FFF5F5F5</color>
+    <color name="divider">#FFE0E0E0</color>
+    <color name="bookmark_active">#FF4CAF50</color>
+    <color name="favorite_active">#FFE91E63</color>
+    <color name="icon_default">#FF757575</color>
+</resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- AppBar Layout for collapsible search area -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <!-- Search and Filter Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="@color/surface"
+                app:layout_collapseMode="parallax">
+
+                <!-- 검색 영역 (컴팩트) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp">
+
+                    <EditText
+                        android:id="@+id/editTextSearch"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_weight="1"
+                        android:hint="맛집 검색..."
+                        android:inputType="text"
+                        android:imeOptions="actionSearch"
+                        android:maxLines="1"
+                        android:background="@drawable/bg_category_chip"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/buttonSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:text="검색"
+                        android:layout_marginStart="6dp"
+                        android:textSize="12sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+                </LinearLayout>
+
+                <!-- 카테고4리 네비게이션 (첫 번째 줄) -->
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipGroupMainCategories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    app:chipSpacing="6dp"
+                    app:lineSpacing="2dp">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipKorean"
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="한식"
+                        android:textSize="14sp"
+                        android:minWidth="60dp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipChinese"
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="중식"
+                        android:textSize="14sp"
+                        android:minWidth="60dp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipJapanese"
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="일식"
+                        android:textSize="14sp"
+                        android:minWidth="60dp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipWestern"
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="양식"
+                        android:textSize="14sp"
+                        android:minWidth="60dp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipChicken"
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="치킨"
+                        android:textSize="14sp"
+                        android:minWidth="60dp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipExpand"
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="더보기"
+                        android:textSize="14sp"
+                        android:minWidth="70dp" />
+
+                </com.google.android.material.chip.ChipGroup>
+
+                <!-- 확장 카테고리 (23개 전체 카테고리) -->
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipGroupExpandedCategories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:visibility="gone"
+                    app:chipSpacing="6dp"
+                    app:lineSpacing="2dp">
+
+                    <!-- 확장 카테고리들이 프로그래밍 방식으로 추가됨 -->
+
+                </com.google.android.material.chip.ChipGroup>
+
+                <!-- 기능 버튼들 (컴팩트) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/buttonBookmarks"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:text="북마크"
+                        android:layout_marginEnd="4dp"
+                        android:textSize="12sp"
+                        android:enabled="false"
+                        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+                    <Button
+                        android:id="@+id/buttonFavorites"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:text="즐겨찾기"
+                        android:layout_marginEnd="4dp"
+                        android:textSize="12sp"
+                        android:enabled="false"
+                        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+                    <Button
+                        android:id="@+id/buttonRefresh"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="1"
+                        android:text="새로고침"
+                        android:textSize="12sp"
+                        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Main Content Area -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <!-- 결과 카운트 -->
+            <TextView
+                android:id="@+id/textViewResultCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="총 0개의 맛집"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/secondary_text" />
+
+            <!-- 로딩 프로그레스바 -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <!-- 맛집 목록 -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewRestaurants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                tools:listitem="@layout/item_restaurant" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

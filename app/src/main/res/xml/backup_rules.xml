@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 토큰 등 민감한 데이터는 백업 제외 -->
+    <exclude domain="sharedpref" path="auth_prefs.xml" />
+    <exclude domain="database" path="restaurant_database" />
+</full-backup-content>

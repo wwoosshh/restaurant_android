@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\chip_filter.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\chip_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\activity_category_detail.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\activity_category_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\item_restaurant.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\item_restaurant.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\chip_assist.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\chip_assist.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\activity_main_old.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\activity_main_old.xml"
+    },
+    {
+        "merged": "com.restaurantapp-mergeDebugResources-48:/layout/fragment_home.xml",
+        "source": "com.restaurantapp-main-51:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-mergeDebugResources-48:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.12\\com.restaurantapp-main-51:\\layout\\fragment_map.xml"
+    }
+]

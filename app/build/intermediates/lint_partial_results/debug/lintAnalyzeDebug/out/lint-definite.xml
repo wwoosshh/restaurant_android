@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.restaurantapp.ui.auth.LoginActivity`, was not found in the project or the libraries">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="43"
+            column="27"
+            startOffset="1721"
+            endLine="43"
+            endColumn="49"
+            endOffset="1743"/>
+    </incident>
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.restaurantapp.ui.auth.RegisterActivity`, was not found in the project or the libraries">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="48"
+            column="27"
+            startOffset="1905"
+            endLine="48"
+            endColumn="52"
+            endOffset="1930"/>
+    </incident>
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.restaurantapp.ui.detail.RestaurantDetailActivity`, was not found in the project or the libraries">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="54"
+            column="27"
+            startOffset="2120"
+            endLine="54"
+            endColumn="62"
+            endOffset="2155"/>
+    </incident>
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.restaurantapp.ui.favorites.FavoritesActivity`, was not found in the project or the libraries">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="61"
+            column="27"
+            startOffset="2399"
+            endLine="61"
+            endColumn="58"
+            endOffset="2430"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/adapter/RestaurantAdapter.kt"
+            line="44"
+            column="43"
+            startOffset="1752"
+            endLine="44"
+            endColumn="83"
+            endOffset="1792"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/adapter/RestaurantAdapter.kt"
+            line="44"
+            column="43"
+            startOffset="1752"
+            endLine="44"
+            endColumn="83"
+            endOffset="1792"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="15"
+            column="9"
+            startOffset="316"
+            endLine="15"
+            endColumn="23"
+            endOffset="330"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.13.1"
+            replacement="1.17.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="56"
+            column="20"
+            startOffset="1359"
+            endLine="56"
+            endColumn="51"
+            endOffset="1390"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.7.0"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="57"
+            column="20"
+            startOffset="1410"
+            endLine="57"
+            endColumn="56"
+            endOffset="1446"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="59"
+            column="20"
+            startOffset="1531"
+            endLine="59"
+            endColumn="70"
+            endOffset="1581"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.8.6 is available: 2.9.2">
+        <fix-replace
+            description="Change to 2.9.2"
+            family="Update versions"
+            oldString="2.8.6"
+            replacement="2.9.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="62"
+            column="20"
+            startOffset="1643"
+            endLine="62"
+            endColumn="70"
+            endOffset="1693"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.8.6 is available: 2.9.2">
+        <fix-replace
+            description="Change to 2.9.2"
+            family="Update versions"
+            oldString="2.8.6"
+            replacement="2.9.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="63"
+            column="20"
+            startOffset="1713"
+            endLine="63"
+            endColumn="69"
+            endOffset="1762"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-ktx than 1.9.2 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.9.2"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="64"
+            column="20"
+            startOffset="1782"
+            endLine="64"
+            endColumn="58"
+            endOffset="1820"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.fragment:fragment-ktx than 1.8.4 is available: 1.8.9">
+        <fix-replace
+            description="Change to 1.8.9"
+            family="Update versions"
+            oldString="1.8.4"
+            replacement="1.8.9"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="65"
+            column="20"
+            startOffset="1840"
+            endLine="65"
+            endColumn="58"
+            endOffset="1878"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2">
+        <fix-replace
+            description="Change to 2.7.2"
+            family="Update versions"
+            oldString="2.6.1"
+            replacement="2.7.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="68"
+            column="20"
+            startOffset="1933"
+            endLine="68"
+            endColumn="54"
+            endOffset="1967"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.2">
+        <fix-replace
+            description="Change to 2.7.2"
+            family="Update versions"
+            oldString="2.6.1"
+            replacement="2.7.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="69"
+            column="20"
+            startOffset="1987"
+            endLine="69"
+            endColumn="50"
+            endOffset="2017"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2">
+        <fix-replace
+            description="Change to 2.7.2"
+            family="Update versions"
+            oldString="2.6.1"
+            replacement="2.7.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="70"
+            column="9"
+            startOffset="2026"
+            endLine="70"
+            endColumn="44"
+            endOffset="2061"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0">
+        <fix-replace
+            description="Change to 1.4.0"
+            family="Update versions"
+            oldString="1.3.2"
+            replacement="1.4.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="81"
+            column="20"
+            startOffset="2404"
+            endLine="81"
+            endColumn="62"
+            endOffset="2446"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-maps than 19.0.0 is available: 19.2.0">
+        <fix-replace
+            description="Change to 19.2.0"
+            family="Update versions"
+            oldString="19.0.0"
+            replacement="19.2.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="87"
+            column="20"
+            startOffset="2687"
+            endLine="87"
+            endColumn="70"
+            endOffset="2737"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-ktx than 1.9.2 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.9.2"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="93"
+            column="20"
+            startOffset="2849"
+            endLine="93"
+            endColumn="58"
+            endOffset="2887"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.2.1"
+            replacement="1.3.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="104"
+            column="31"
+            startOffset="3206"
+            endLine="104"
+            endColumn="62"
+            endOffset="3237"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.6.1"
+            replacement="3.7.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="105"
+            column="31"
+            startOffset="3268"
+            endLine="105"
+            endColumn="75"
+            endOffset="3312"/>
+    </incident>
+
+    <incident
+        id="UseCompatTextViewDrawableXml"
+        severity="warning"
+        message="Use `app:drawableStartCompat` instead of `android:drawableStart`">
+        <fix-composite
+            description="Use app namespace instead of android">
+            <fix-attribute
+                description="Set drawableStartCompat=&quot;@drawable/ic_location_on_24&quot;"
+                namespace="http://schemas.android.com/apk/res-auto"
+                attribute="drawableStartCompat"
+                value="@drawable/ic_location_on_24"/>
+            <fix-attribute
+                description="Delete drawableStart"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="drawableStart"/>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="113"
+            column="13"
+            startOffset="4400"
+            endLine="113"
+            endColumn="64"
+            endOffset="4451"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 24">
+        <fix-data conditional="true"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/data/network/NetworkModule.kt"
+            line="83"
+            column="20"
+            startOffset="2685"
+            endLine="83"
+            endColumn="88"
+            endOffset="2753"/>
+    </incident>
+
+    <incident
+        id="StaticFieldLeak"
+        severity="warning"
+        message="Do not place Android context classes in static fields (static reference to `AuthInterceptor` which has field `context` pointing to `Context`); this is a memory leak">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/data/network/NetworkModule.kt"
+            line="16"
+            column="5"
+            startOffset="441"
+            endLine="16"
+            endColumn="57"
+            endOffset="493"/>
+    </incident>
+
+    <incident
+        id="DisableBaselineAlignment"
+        severity="warning"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance">
+        <fix-attribute
+            description="Set baselineAligned=&quot;false&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="baselineAligned"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="119"
+            column="22"
+            startOffset="4517"
+            endLine="119"
+            endColumn="34"
+            endOffset="4529"/>
+    </incident>
+
+    <incident
+        id="TypographyEllipsis"
+        severity="warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?">
+        <fix-replace
+            description="Replace with …"
+            oldString="..."
+            replacement="…"
+            priority="0"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="43"
+            column="28"
+            startOffset="1564"
+            endLine="43"
+            endColumn="35"
+            endOffset="1571"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="39"
+            column="10"
+            startOffset="1300"
+            endLine="39"
+            endColumn="18"
+            endOffset="1308"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="37"
+            column="22"
+            startOffset="1605"
+            endLine="37"
+            endColumn="30"
+            endOffset="1613"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/fragment/HomeFragment.kt"
+            line="104"
+            column="52"
+            startOffset="3904"
+            endLine="104"
+            endColumn="80"
+            endOffset="3932"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/fragment/HomeFragment.kt"
+            line="113"
+            column="52"
+            startOffset="4319"
+            endLine="113"
+            endColumn="76"
+            endOffset="4343"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/fragment/HomeFragment.kt"
+            line="122"
+            column="52"
+            startOffset="4729"
+            endLine="122"
+            endColumn="77"
+            endOffset="4754"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/fragment/ProfileFragment.kt"
+            line="139"
+            column="22"
+            startOffset="4513"
+            endLine="139"
+            endColumn="40"
+            endOffset="4531"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/fragment/ProfileFragment.kt"
+            line="143"
+            column="22"
+            startOffset="4669"
+            endLine="143"
+            endColumn="32"
+            endOffset="4679"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/restaurantapp/ui/adapter/RestaurantAdapter.kt"
+            line="45"
+            column="48"
+            startOffset="1840"
+            endLine="45"
+            endColumn="77"
+            endOffset="1869"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집 추천 앱에 오신 것을 환영합니다!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="16"
+            column="9"
+            startOffset="571"
+            endLine="16"
+            endColumn="45"
+            endOffset="607"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;로그인&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="28"
+            column="9"
+            startOffset="966"
+            endLine="28"
+            endColumn="27"
+            endOffset="984"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집 이름, 카테고리, 주소 검색&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="44"
+            column="13"
+            startOffset="1492"
+            endLine="44"
+            endColumn="46"
+            endOffset="1525"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;검색&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="53"
+            column="13"
+            startOffset="1814"
+            endLine="53"
+            endColumn="30"
+            endOffset="1831"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;전체&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="74"
+            column="17"
+            startOffset="2512"
+            endLine="74"
+            endColumn="34"
+            endOffset="2529"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;한식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="82"
+            column="17"
+            startOffset="2847"
+            endLine="82"
+            endColumn="34"
+            endOffset="2864"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;중식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="90"
+            column="17"
+            startOffset="3183"
+            endLine="90"
+            endColumn="34"
+            endOffset="3200"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;일식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="98"
+            column="17"
+            startOffset="3520"
+            endLine="98"
+            endColumn="34"
+            endOffset="3537"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;양식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="106"
+            column="17"
+            startOffset="3856"
+            endLine="106"
+            endColumn="34"
+            endOffset="3873"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;북마크&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="125"
+            column="13"
+            startOffset="4415"
+            endLine="125"
+            endColumn="31"
+            endOffset="4433"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;즐겨찾기&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="135"
+            column="13"
+            startOffset="4783"
+            endLine="135"
+            endColumn="32"
+            endOffset="4802"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;새로고침&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="145"
+            column="13"
+            startOffset="5150"
+            endLine="145"
+            endColumn="32"
+            endOffset="5169"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;총 0개의 맛집&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main_old.xml"
+            line="155"
+            column="9"
+            startOffset="5438"
+            endLine="155"
+            endColumn="32"
+            endOffset="5461"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="6"
+            column="9"
+            startOffset="215"
+            endLine="6"
+            endColumn="27"
+            endOffset="233"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;지도&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="10"
+            column="9"
+            startOffset="347"
+            endLine="10"
+            endColumn="27"
+            endOffset="365"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;프로필&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="14"
+            column="9"
+            startOffset="480"
+            endLine="14"
+            endColumn="28"
+            endOffset="499"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집 검색...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="42"
+            column="25"
+            startOffset="1849"
+            endLine="42"
+            endColumn="48"
+            endOffset="1872"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;검색&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="55"
+            column="25"
+            startOffset="2471"
+            endLine="55"
+            endColumn="42"
+            endOffset="2488"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;전체&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="78"
+            column="25"
+            startOffset="3542"
+            endLine="78"
+            endColumn="42"
+            endOffset="3559"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;한식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="88"
+            column="25"
+            startOffset="4024"
+            endLine="88"
+            endColumn="42"
+            endOffset="4041"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;중식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="97"
+            column="25"
+            startOffset="4460"
+            endLine="97"
+            endColumn="42"
+            endOffset="4477"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;일식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="106"
+            column="25"
+            startOffset="4897"
+            endLine="106"
+            endColumn="42"
+            endOffset="4914"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;양식&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="115"
+            column="25"
+            startOffset="5333"
+            endLine="115"
+            endColumn="42"
+            endOffset="5350"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;더보기&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="124"
+            column="25"
+            startOffset="5768"
+            endLine="124"
+            endColumn="43"
+            endOffset="5786"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;치킨&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="144"
+            column="25"
+            startOffset="6685"
+            endLine="144"
+            endColumn="42"
+            endOffset="6702"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;피자&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="152"
+            column="25"
+            startOffset="7067"
+            endLine="152"
+            endColumn="42"
+            endOffset="7084"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;버거&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="160"
+            column="25"
+            startOffset="7449"
+            endLine="160"
+            endColumn="42"
+            endOffset="7466"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;카페&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="168"
+            column="25"
+            startOffset="7831"
+            endLine="168"
+            endColumn="42"
+            endOffset="7848"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;디저트&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="176"
+            column="25"
+            startOffset="8213"
+            endLine="176"
+            endColumn="43"
+            endOffset="8231"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;북마크&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="194"
+            column="25"
+            startOffset="8940"
+            endLine="194"
+            endColumn="43"
+            endOffset="8958"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;즐겨찾기&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="205"
+            column="25"
+            startOffset="9456"
+            endLine="205"
+            endColumn="44"
+            endOffset="9475"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;새로고침&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="216"
+            column="25"
+            startOffset="9971"
+            endLine="216"
+            endColumn="44"
+            endOffset="9990"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;총 0개의 맛집&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="245"
+            column="17"
+            startOffset="10968"
+            endLine="245"
+            endColumn="40"
+            endOffset="10991"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;지도 아이콘&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_map.xml"
+            line="15"
+            column="9"
+            startOffset="526"
+            endLine="15"
+            endColumn="44"
+            endOffset="561"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;지도 기능&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_map.xml"
+            line="20"
+            column="9"
+            startOffset="677"
+            endLine="20"
+            endColumn="29"
+            endOffset="697"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집의 위치를 지도에서 확인할 수 있는 기능입니다.\n\n곧 구현 예정입니다!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_map.xml"
+            line="29"
+            column="9"
+            startOffset="969"
+            endLine="29"
+            endColumn="67"
+            endOffset="1027"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;프로필 이미지&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="30"
+            column="17"
+            startOffset="1097"
+            endLine="30"
+            endColumn="53"
+            endOffset="1133"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;로그인이 필요합니다&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="37"
+            column="17"
+            startOffset="1360"
+            endLine="37"
+            endColumn="42"
+            endOffset="1385"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;로그인하여 더 많은 기능을 이용해보세요!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="65"
+            column="17"
+            startOffset="2374"
+            endLine="65"
+            endColumn="54"
+            endOffset="2411"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;로그인&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="75"
+            column="17"
+            startOffset="2793"
+            endLine="75"
+            endColumn="35"
+            endOffset="2811"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;회원가입&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="83"
+            column="17"
+            startOffset="3112"
+            endLine="83"
+            endColumn="36"
+            endOffset="3131"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;나의 활동&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="113"
+            column="25"
+            startOffset="4251"
+            endLine="113"
+            endColumn="45"
+            endOffset="4271"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="136"
+            column="33"
+            startOffset="5361"
+            endLine="136"
+            endColumn="49"
+            endOffset="5377"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;북마크&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="144"
+            column="33"
+            startOffset="5774"
+            endLine="144"
+            endColumn="51"
+            endOffset="5792"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="161"
+            column="33"
+            startOffset="6573"
+            endLine="161"
+            endColumn="49"
+            endOffset="6589"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;즐겨찾기&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="169"
+            column="33"
+            startOffset="6986"
+            endLine="169"
+            endColumn="52"
+            endOffset="7005"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;계정 관리&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="185"
+            column="17"
+            startOffset="7491"
+            endLine="185"
+            endColumn="37"
+            endOffset="7511"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;프로필 수정&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="195"
+            column="17"
+            startOffset="7897"
+            endLine="195"
+            endColumn="38"
+            endOffset="7918"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;비밀번호 변경&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="203"
+            column="17"
+            startOffset="8240"
+            endLine="203"
+            endColumn="39"
+            endOffset="8262"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;로그아웃&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="211"
+            column="17"
+            startOffset="8576"
+            endLine="211"
+            endColumn="36"
+            endOffset="8595"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;위험 구역&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="219"
+            column="17"
+            startOffset="8891"
+            endLine="219"
+            endColumn="37"
+            endOffset="8911"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;계정 삭제&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_profile.xml"
+            line="229"
+            column="17"
+            startOffset="9308"
+            endLine="229"
+            endColumn="37"
+            endOffset="9328"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집 이미지&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="36"
+            column="17"
+            startOffset="1348"
+            endLine="36"
+            endColumn="52"
+            endOffset="1383"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집 이름&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="51"
+            column="21"
+            startOffset="1924"
+            endLine="51"
+            endColumn="41"
+            endOffset="1944"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;카테고리&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="64"
+            column="21"
+            startOffset="2466"
+            endLine="64"
+            endColumn="40"
+            endOffset="2485"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;북마크&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="87"
+            column="21"
+            startOffset="3442"
+            endLine="87"
+            endColumn="53"
+            endOffset="3474"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;즐겨찾기&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="96"
+            column="21"
+            startOffset="3880"
+            endLine="96"
+            endColumn="54"
+            endOffset="3913"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;주소&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="107"
+            column="13"
+            startOffset="4165"
+            endLine="107"
+            endColumn="30"
+            endOffset="4182"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;평점&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="135"
+            column="21"
+            startOffset="5237"
+            endLine="135"
+            endColumn="52"
+            endOffset="5268"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;4.5&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="141"
+            column="21"
+            startOffset="5485"
+            endLine="141"
+            endColumn="39"
+            endOffset="5503"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;(123)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="152"
+            column="21"
+            startOffset="5964"
+            endLine="152"
+            endColumn="41"
+            endOffset="5984"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;보통&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="172"
+            column="17"
+            startOffset="6678"
+            endLine="172"
+            endColumn="34"
+            endOffset="6695"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;010-1234-5678&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="188"
+            column="17"
+            startOffset="7235"
+            endLine="188"
+            endColumn="45"
+            endOffset="7263"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;맛집 설명&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_restaurant.xml"
+            line="202"
+            column="13"
+            startOffset="7723"
+            endLine="202"
+            endColumn="33"
+            endOffset="7743"/>
+    </incident>
+
+</incidents>
